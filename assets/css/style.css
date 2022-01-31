@@ -214,18 +214,19 @@ a:visited {
     color: #5D5D5D;
 }
 
-.project1{
+.gamejunkee{
+    background-image: url("../images/game-junkee-screenshot.png")
+}
+
+.muvd{
     background-image: url("../images/muvd-screenshot.png");
 }
 
 /* update image  */
 .day-planner{ 
-    background-image: url("../images/muvd-screenshot.png");
+    background-image: url("../images/day-planner-screenshot.png");
 }
 
-.quiz {
-    background-image: url("../images/quiz-screenshot.png");
-}
 
 @media screen and (max-width:600px) { 
      .main-card {
