@@ -215,16 +215,18 @@ a:visited {
 }
 
 .gamejunkee{
-    background-image: url("../images/game-junkee-screenshot.png")
+    background-image: url("../images/gamejunkee-screenshot.png");
+    background-repeat: no-repeat;
 }
 
 .muvd{
     background-image: url("../images/muvd-screenshot.png");
+    background-repeat: no-repeat;
 }
 
-/* update image  */
 .day-planner{ 
     background-image: url("../images/day-planner-screenshot.png");
+    background-repeat: no-repeat;
 }
 
 
