@@ -1,0 +1,235 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#F7F7F7;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height: 1.5;
+    color:black;
+}
+h1,
+h2,
+h3 {
+    margin:0;
+}
+
+p {
+    margin:0;
+}
+
+header {
+    padding:15px 6% 15px 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#87A62C;
+    box-shadow: 0 5px 35px #d4d6cf;
+}
+
+header h1 {
+    color: black;
+    padding: 5px 1% 5px 6%;
+    margin:0;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+nav {
+   display:flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg,  0% #476930, #476930 100%);
+    background-repeat: no-repeat;
+    background-size:100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color:#5D5D5D;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.hero-section {
+    background: #5D5D5D;
+    /* background-image: url("../images/website-screenshot.png"), linear-gradient(180deg, lightblue 0%, lightblue 100%); */
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    /* min-height: 30vh; */
+    color:#d4d6cf;
+    padding: 2% 6%;
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: flex-end;
+    border-top: 5px solid black;
+}
+
+.hero-section div {
+    flex: 0 0 90%;
+    
+}
+
+.hero-section h2 {
+    color: #87A62C;
+    margin: 0; 
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+    
+}
+
+.m-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-section {
+    margin: 25px 0;
+    padding: 25px 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.box-section h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid black;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.box-section div {
+    flex: 0 0 77%;
+}
+
+.box-section p {
+    margin-bottom: 20px;
+}
+/* section a{
+    background-color:#476930;
+} */
+
+a:visited {
+    color:black    
+}
+
+.flex-boxes {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-item {
+    border: 5px solid #87A62C;
+    background-color: #5D5D5D;
+    color:black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display:flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 105%;
+    transition: all 0.5s;
+    font-size: 0.1em;
+
+}
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    /* background-color: black; */
+    background-color: #272727;
+}
+
+.flex-item div {
+    background-color: #87A62C;
+    padding: 8px 10px;
+}
+
+.flex-item h3 {
+    font-size:1.6rem;
+}
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    display: inline-block;
+    color: #87A62C;
+    padding: 5;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    /* background-image: linear-gradient(270deg, #d4d6cf 0% , #d4d6cf 100%); */
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position:bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem 
+
+}
+ 
+.contact address a:hover {
+    color: #5D5D5D;
+}
+
+.project1{
+    background-image: url("../images/muvd-screenshot.png");
+}
+
+/* update image  */
+.day-planner{ 
+    background-image: url("../images/muvd-screenshot.png");
+}
+
+.quiz {
+    background-image: url("../images/quiz-screenshot.png");
+}
+
+@media screen and (max-width:600px) { 
+     .main-card {
+        max-width:500px; 
+
+    }
+} 
